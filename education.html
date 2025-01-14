@@ -3,29 +3,14 @@
 <html>
     <head>
         <title>Education</title>
-        <link rel="icon" href="source/portfolio_icon.png">
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <!-- bulma css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.3/css/bulma.min.css" 
-        integrity="sha512-4EnjWdm80dyWrJ7rh/tlhNt6fJL52dSDSHNEqfdVmBLpJLPrRYnFa+Kn4ZZL+FRkDL5/7lAXuHylzJkpzkSM2A==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        <!-- jquery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <!-- googleapis -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&display=swap" rel="stylesheet">
-
-        <!-- custom -->
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="script/script.js"></script>
+        <script>
+            fetch('head.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.head.innerHTML = data;
+                })
+                .catch(error => console.error('Error loading head:', error));
+        </script>
     </head>
     <body>
         <div id="navbar-placeholder"></div>
@@ -42,14 +27,40 @@
                 </div>
             </div>
         </section>
-<!-- 
-        <div class="circle-container">
-            <span class="badge-circle">1</span>
-            <span class="badge-circle">2</span>
-            <span class="badge-circle">3</span>
-        </div> -->
 
-        <div class="container section">
+        <div class="tabs is-centered">
+            <ul>
+                <li class="is-active">
+                    <a href="#acedemic">
+                        <span class="icon is-small">
+                            <i class="fa-solid fa-book" aria-hidden="true"></i>
+                        </span>
+                        <span>Academic</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#achievement">
+                        <span class="icon is-small">
+                            <i class="fa-solid fa-award" aria-hidden="true"></i>
+                        </span>
+                        <span>Achievement</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="acedemic" class="tab-content">
+            <h2>Content for Tab 1</h2>
+            <p>This is the content for the first tab.</p>
+        </div>
+
+        <div id="achievement" class="tab-content">
+            <h2>Content for Tab 2</h2>
+            <p>This is the content for the first tab.</p>
+        </div>
+
+
+        <div class="container">
             <section class="section">
                 <ul class="timeline">
                     <li class="timeline-item">
