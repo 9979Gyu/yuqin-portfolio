@@ -82,39 +82,24 @@
     font-size: 20px;
 }
 
-.timeline {
-    list-style: none;
-    padding-left: 0;
+.video-footer {
+    height: 200px;
+    width: 100%;
+    object-fit: cover; 
 }
 
-.timeline-item {
-    position: relative;
-    margin-bottom: 2rem;
+.card-footer img {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
 }
 
-.timeline-item .timeline-badge {
-    position: absolute;
-    left: -2.5rem;
-    top: 0;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tab-content {
+    display: none; 
 }
 
-.timeline-item .timeline-content {
-    margin-left: 3rem; /* Space for the circle badge */
-    background-color: #f5f5f5;
-    padding: 1.5rem;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-.timeline-item:hover .timeline-content {
-    background-color: #e8e8e8;
+.is-show {
+    display: block;
 }
 
 .image-gallery {
