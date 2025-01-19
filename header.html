@@ -1,59 +1,38 @@
-<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
-            <strong class="black-ops-one-regular big">G.Y.Q.</strong>
-        </a>
-
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>    
-        
-    </div>
-    <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-            <a class="navbar-item" href="index.html">Home</a>
-            <a class="navbar-item" href="experience.html">Experience</a>
-            <a class="navbar-item" href="education.html">Education</a>
-            <a class="navbar-item" href="project.html">Project</a>
-            <a class="navbar-item" href="strength.html">Strength</a>
-            <a class="navbar-item" href="activity.html">Activities</a>
-    
-            <div class="navbar-item has-dropdown is-hoverable"> 
-                <a class="navbar-link">More</a>
-                <div class="navbar-dropdown">
-                    <a class="navbar-item" href="interest.html">Interest</a>
-                    <a class="navbar-item" href="reference.html">References</a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="report.html">Report an issue</a>
-                </div>
+<header>
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <strong class="black-ops-one-regular big">G.Y.Q.</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item smooth-menu">
+                        <a id="index-nav" class="nav-link" href="index.html">about</a>
+                    </li>
+                    <li class="nav-item smooth-menu">
+                        <a id="education-nav" class="nav-link" href="education.html">education</a>
+                    </li>
+                    <li class="nav-item smooth-menu">
+                        <a id="skill-nav" class="nav-link" href="skill.html">skills</a>
+                    </li>
+                    <li class="nav-item smooth-menu">
+                        <a id="experience-nav" class="nav-link" href="experience.html">experience</a>
+                    </li>
+                    <li class="nav-item smooth-menu">
+                        <a id="project-nav" class="nav-link" href="project.html">project</a>
+                    </li>
+                    <li class="nav-item smooth-menu">
+                        <a id="activities-nav" class="nav-link" href="activities.html">activities</a>
+                    </li>
+                </ul>
+                <a href="mailto:yuqin1161@gmail.com" class="btn btn-primary">Email</a>
             </div>
         </div>
-    
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <div class="buttons">
-                    <a class="button is-primary" href="https://www.linkedin.com/in/guiyuqin" target="_blank">
-                        <strong>LinkedIn</strong>
-                    </a>
-                    <a class="button is-light" href="mailto:yuqin1161@gmail.com">Send Email</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
+    </nav>
 
-<script>
-    $(document).ready(function() {
-        // Check for click events on the navbar burger icon
-        $(".navbar-burger").click(function() {
+    <div class="clearfix"></div>
 
-            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-            $(".navbar-burger").toggleClass("is-active");
-            $(".navbar-menu").toggleClass("is-active");
-
-        });
-    });
-</script>
+</header>

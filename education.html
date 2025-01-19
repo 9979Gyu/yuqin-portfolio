@@ -1,251 +1,327 @@
 <!DOCTYPE html>
-<html lang="en">
-<html>
+<html class="no-js" lang="en">
     <head>
-        <title>Education</title>
-        <link rel="icon" href="source/portfolio_icon.png">
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Yu Qin</title>
+		<link rel="icon" href="assets/logo/favicon.png"/>
+		
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&display=swap" rel="stylesheet">
 
-        <link rel="icon" href="source/portfolio_icon.png">
+        <!--font-awesome.min.css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+		crossorigin="anonymous" 
+		referrerpolicy="no-referrer" />
 
-        <!-- bulma css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.3/css/bulma.min.css" 
-        integrity="sha512-4EnjWdm80dyWrJ7rh/tlhNt6fJL52dSDSHNEqfdVmBLpJLPrRYnFa+Kn4ZZL+FRkDL5/7lAXuHylzJkpzkSM2A==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <!-- jquery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<!-- custom -->
+		<link rel="stylesheet" href="assets/css/style.css"/>
+		<link rel="stylesheet" href="assets/css/responsive.css"/>
 
-        <!-- googleapis -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&display=swap" rel="stylesheet">
-
-        <!-- fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        <!-- custom -->
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="script/script.js"></script>
+		<style>
+			#education-nav {
+				color: #3676ff !important;
+			}
+		</style>
     </head>
+
     <body>
+		<!-- navbar section -->
         <div id="navbar-placeholder"></div>
-
-        <section class="hero is-info is-medium">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title title-white">
-                        My Education Background
-                    </h1>
-                    <h2 class="subtitle subtitle-white">
-                        A brief overview of my academic journey
-                    </h2>
-                </div>
+		
+		<!-- education section -->
+		<section id="welcome-sub" class="welcome-sub">
+            <div class="image-background">
+                <img src="assets/images/background/graduate 2-edited.png" alt="Graduation Image">
             </div>
-        </section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<br/>
+						<div class="header-text">
+							<h2>Education History</h2>
+							<p>A brief overview of my academic journey</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-        <div class="container">
-            <div class="section">
-                <div class="tabs is-centered is-boxed">
-                    <ul>
-                        <li class="acedemic is-active">
-                            <a href="#acedemic">
-                                <span class="icon is-small">
-                                    <i class="fa-solid fa-book" aria-hidden="true"></i>
-                                </span>
-                                <span>Academic</span>
-                            </a>
-                        </li>
-                        <li class="achievement">
-                            <a href="#achievement">
-                                <span class="icon is-small">
-                                    <i class="fa-solid fa-award" aria-hidden="true"></i>
-                                </span>
-                                <span>Achievement</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+		</section>
         
-                <div id="acedemic" class="tab-content is-show">
-                    <div class="card education is-show">
-                        <header class="card-header">
-                            <div class="card-header-title">
-                                <p>Bachelor of Computer Science (Hons)</p>
-                            </div>
-                            <button class="card-header-icon" aria-label="more options">
-                                <span class="icon">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </header>
-                        <div class="card-content is-show">
-                            <div class="content">
-                                <div class="columns is-vcentered">
-                                    <!-- Profile Image Column -->
-                                    <div class="column is-three-fifths">
-                                        <div class="content">
-                                            <p class="title is-4">
-                                                Bachelor of Computer Science (Software Development) with Honours
-                                            </p>
-                                            
-                                            <p><strong>FYP: UNITYCARE</strong> (application to empower community employment and skill)</p>
-                                            <ul>
-                                                <li>Job Posting Apps</li>
-                                                <li>Focus on Individuals with Disabilities</li>
-                                                <li>Increase their chances of getting jobs</li>
-                                            </ul>
+        <section id="education" class="section-header">
+			<div class="section-heading text-center">
+				<h2>education</h2>
+			</div>
+			<div class="container">
+				<div class="education-horizontal-timeline">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2023 - Now</h2>
+									<h3>bachelor <span>of </span> computer science (hons)</h3>
+								</div>
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											Universiti Teknikal Malaysia Melaka (UTeM)
+										</h4>
+										<h5>melaka, malaysia</h5>
+										<p class="description">
+											Focused on software development, algorithms, and artificial intelligence. 
+											Participated in code battles and student projects to enhance coding and 
+											problem-solving skills.
+										</p>
+										<br/>
+                                        <div class="description">
+											<ul>
+												<li>FYP: UNITYCARE</strong> (application to empower community employment and skill)</li>
+												<li>Focus on Individuals with Disabilities</li>
+												<li>Increase their chances of getting jobs</li>
+											</ul>
+										</div>
+										<div class="edu-image">
+											<img src="assets/images/education/my-image.png" alt="My Personal Image">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2020 - 2023</h2>
+									<h3>diploma <span>in </span> information technology</h3>
+								</div>
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											Universiti Teknikal Malaysia Melaka (UTeM)
+										</h4>
+										<h5>melaka, malaysia</h5>
+										<p class="description">
+											Focused on software development, algorithms, and machine learning. 
+											Built multiple projects, including an e-commerce site and a personal portfolio.
+										</p>
+										<br/>
+										<div class="description">
+											<ul>
+												<li>FYP: School Fees Management System</li>
+												<li>Primary and Secondary School</li>
+												<li>Increase efficiency in collecting fees</li>
+												<li>Reduce complexity in collecting fees</li>
+											</ul>
+										</div>
+										<div class="edu-image">
+											<img src="assets/images/education/graduate-diploma.png" alt="Diploma Graduation">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2015 - 2019</h2>
+									<h3>secondary school</h3>
+								</div>
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											Sekolah Menengah Kebangsaan Durian Tunggal
+										</h4>
+										<h5>melaka, malaysia</h5>
+										<p class="description">
+											Focused on Accounting and Economics, which helped me develop a strong foundation 
+											in financial principles and economic concepts.
+										</p>
+										<br/>
+										<div class="description">
+											<ul>
+												<li>I actively participated in extracurricular activities:</li>
+												<li>Kijang Economic Competition</li>
+												<li>sports competitions (badminton, basketball)</li>
+											</ul>
+										</div>
+										<div class="edu-image">
+											<img src="assets/images/education/graduate-smk.jpg" alt="Secondary School Graduation">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                                            <p><strong>Details:</strong> Focused on software development, algorithms, and artificial intelligence. Participated in code battles and student projects to enhance coding and problem-solving skills.</p>
-                                        </div>
-                                    </div>
-                    
-                                    <div class="column is-one-fifth">
-                        
-                                    </div>
+		</section>
 
-                                    <!-- Personal Information Column -->
-                                    <div class="column has-text-right is-one-fifth">
-                                        <div class="content">
-                                            <p class="subtitle is-size-6 is-italic">
-                                                Universiti Teknikal Malaysia Melaka (UTeM)
-                                            </p>
-                                            <p><strong>2023 - Now</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <video controls muted loop class="video-footer">
-                                <source src="source/bgvideo-scaled.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </footer>
-                    </div>
+		<!-- achievement section -->
+		<section class="section-header even-background">
+			<div class="section-heading text-center">
+				<h2>achievements</h2>
+			</div>
+			<div class="container">
+				<div class="profiles-content">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="single-profile" data-bs-toggle="modal" data-bs-target="#acemodal">
+								<div class="profile-txt">
+									<a><i class="fa-solid fa-cloud"></i></a>
+									<div class="profile-icon-name">Associate Cloud Engineer Certificate</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a><i class="fa-solid fa-cloud"></i></a>
+										<div class="profile-icon-name">Associate Cloud Engineer Certificate</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-profile" data-bs-toggle="modal" data-bs-target="#coursemodal">
+								<div class="profile-txt">
+									<a><i class="fa-brands fa-google"></i></a>
+									<div class="profile-icon-name">Google Cloud Career Readiness Program</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a><i class="fa-brands fa-google"></i></a>
+										<div class="profile-icon-name">Google Cloud Career Readiness Program</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-profile profile-no-border" data-bs-toggle="modal" data-bs-target="#deanmodal">
+								<div class="profile-txt">
+									<a><i class="fa-solid fa-award"></i></a>
+									<div class="profile-icon-name">Dean's List Award</div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a><i class="fa-solid fa-award"></i></a>
+										<div class="profile-icon-name">Dean's List Award</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                    <div class="card education">
-                        <header class="card-header">
-                            <div class="card-header-title">
-                                <p>Diploma in Information Technology</p>
-                            </div>
-                            <button class="card-header-icon" aria-label="more options">
-                                <span class="icon">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </header>
-                        <div class="card-content is-show">
-                            <div class="content">
-                                <div class="columns is-vcentered">
-                                    <!-- Profile Image Column -->
-                                    <div class="column is-three-fifths">
-                                        <div class="content">
-                                            <p class="title is-4">
-                                                Diploma in Information Technology
-                                            </p>
-                                            
-                                            <p><strong>FYP: School Fees Management System</strong></p>
-                                            <ul>
-                                                <li>Primary and Secondary School</li>
-                                                <li>Increase the efficiency and reduce complexity for teachers in collecting fees</li>
-                                            </ul>
-                                            <p><strong>Details:</strong> Focused on software development, algorithms, and machine learning. Built multiple projects, including an e-commerce site and a personal portfolio.</p>
-                                        </div>
-                                    </div>
-                    
-                                    <div class="column is-one-fifth">
-                        
-                                    </div>
+				<div class="modal fade" id="acemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="acemodalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="acemodalLabel">Achievement Details</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<p>
+									Google Cloud Associate Cloud Engineer (ACE) Exam is an entry-level 
+									certification that validates your ability to deploy, manage, and secure 
+									applications on Google Cloud Platform (GCP).
+								</p>
+								<br/>
+								<div class="modal-flex">
+									<a href="https://www.credly.com/badges/b7b8bd34-e9e8-40ac-b49f-8e1ed0271901/linked_in_profile" target="_blank">
+										<img src="assets/images/education/ace-cert.jpg" alt="exam certificate"/>
+									</a>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                                    <!-- Personal Information Column -->
-                                    <div class="column has-text-right is-one-fifth">
-                                        <div class="content">
-                                            <p class="subtitle is-size-6 is-italic">
-                                                Universiti Teknikal Malaysia Melaka (UTeM)
-                                            </p>
-                                            <p><strong>2020 - 2023</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <img class="card-footer-item" src="source/graduate 1.png" alt="Graduation image">
-                            <img class="card-footer-item" src="source/graduate 2.png" alt="Graduation image">
-                        </footer>
-                    </div>
-                </div>
-                    
-        
-                <div id="achievement" class="tab-content is-hidden">
-                    <div class="card education">
-                        <header class="card-header">
-                            <div class="card-header-title">
-                                <p>Bachelor of Computer Science (Hons)</p>
-                            </div>
-                            <button class="card-header-icon" aria-label="more options">
-                                <span class="icon">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
-                                </span>
-                            </button>
-                        </header>
-                        <div class="card-content ">
-                            <div class="content">
-                                <div class="columns is-vcentered">
-                                    <!-- Profile Image Column -->
-                                    <div class="column is-three-fifths">
-                                        <div class="content">
-                                            <p class="title is-4">
-                                                Bachelor of Computer Science (Software Development) with Honours
-                                            </p>
-                                            
-                                            <p><strong>FYP: UNITYCARE</strong> (application to empower community employment and skill)</p>
-                                            <ul>
-                                                <li>Job Posting Apps</li>
-                                                <li>Focus on Individuals with Disabilities</li>
-                                                <li>Increase their chances of getting jobs</li>
-                                            </ul>
+				<div class="modal fade" id="coursemodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="coursemodalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="coursemodalLabel">Achievement Details</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<p>
+									Successfully completing Google Cloud Career Readiness program in 2023.
+								</p>
+								<br/>
+								<div class="modal-flex">
+									<img src="assets/images/education/ace-cert2.jpg" alt="path completion certificate"/>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                                            <p><strong>Details:</strong> Focused on software development, algorithms, and artificial intelligence. Participated in code battles and student projects to enhance coding and problem-solving skills.</p>
-                                        </div>
-                                    </div>
-                    
-                                    <div class="column is-one-fifth">
-                        
-                                    </div>
+				<div class="modal fade" id="deanmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="deanmodalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="deanmodalLabel">Achievement Details</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<p>
+									Awarded The Dean's list for excellent academic achievement.
+								</p>
+								<br/>
+								<div class="modal-flex">
+									<img src="assets/images/education/dean.png" alt="Dean's List certificate"/>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                                    <!-- Personal Information Column -->
-                                    <div class="column has-text-right is-one-fifth">
-                                        <div class="content">
-                                            <p class="subtitle is-size-6 is-italic">
-                                                Universiti Teknikal Malaysia Melaka (UTeM)
-                                            </p>
-                                            <p><strong>2023 - Now</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <video controls muted loop class="video-footer">
-                                <source src="source/bgvideo-scaled.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </footer>
-                    </div>
-                </div>
-            </div>
+			</div>
 
-        </div>
-        
+		</section>
 
+        <!-- footer section -->
         <div id="footer-placeholder"></div>
+
+        <!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<!-- jquery cdn -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+		integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<!-- bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+		<script src="assets/js/custom.js"></script>
+		
     </body>
 </html>

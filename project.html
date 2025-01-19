@@ -1,119 +1,397 @@
 <!DOCTYPE html>
-<html lang="en">
-<html>
+<html class="no-js" lang="en">
     <head>
-        <title>Qualification</title>
-        <link rel="icon" href="source/portfolio_icon.png">
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Yu Qin</title>
+		<link rel="icon" href="assets/logo/favicon.png">
+		
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&display=swap" rel="stylesheet">
 
-        <link rel="icon" href="source/portfolio_icon.png">
+        <!--font-awesome.min.css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+		crossorigin="anonymous" 
+		referrerpolicy="no-referrer" />
 
-        <!-- bulma css -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.3/css/bulma.min.css" 
-        integrity="sha512-4EnjWdm80dyWrJ7rh/tlhNt6fJL52dSDSHNEqfdVmBLpJLPrRYnFa+Kn4ZZL+FRkDL5/7lAXuHylzJkpzkSM2A==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <!-- jquery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<!-- custom -->
+		<link rel="stylesheet" href="assets/css/style.css"/>
+		<link rel="stylesheet" href="assets/css/responsive.css"/>
 
-        <!-- googleapis -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&display=swap" rel="stylesheet">
-
-        <!-- fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        <!-- custom -->
-        <link rel="stylesheet" href="css/style.css" />
-        <script src="script/script.js"></script>
+		<style>
+			#project-nav {
+				color: #3676ff !important;
+			}
+		</style>
     </head>
+
     <body>
         <div id="navbar-placeholder"></div>
 
-        <!-- Main Content Section -->
-        <div class="container section">
-            <!-- Projects / Software Developed Section -->
-            <div class="section">
-                <h2 class="title is-3">Projects / Software Developed</h2>
-
-                <!-- Project 1 -->
-                <div class="card project-card">
-                    <div class="card-header project-header">
-                        <p class="card-header-title">Project Name: UnityCare</p>
-                    </div>
-                    <div class="card-content">
-                        <p class="project-description"><strong>Description:</strong> 
-                            UnityCare serves as a bridge to connect the enterprise and individual who have financial 
-                            difficulties or physical disabilities. Through UnityCare, enterprises may improve their 
-                            corporate reputation by caring for vulnerable groups and may receive government subsidies 
-                            as a support for enterprises caring for vulnerable groups. On the other hand, individuals 
-                            with disabilities can find available jobs and attend skill development programs for financial
-                             and intellectual stability. Moreover, volunteers can gain knowledge on the way to deal with 
-                             people with physical disabilities by participating in volunteering programs. UnityCare plays
-                              a role in fostering a culture of empathy and collective responsibility by publicly sharing 
-                              relevant poverty information. This is crucial in raising awareness about the poverty issue 
-                              in our country or around the world. By providing accessible information, UnityCare educates
-                               the public about the socioeconomic issues that lead to poverty such as unemployment or war,
-                                the impact of poverty on communities and ongoing efforts to reduce these challenges.
-                        </p>
-                        
-                        <p><strong>Technologies Used:</strong></p>
-                        <ul class="tech-list">
-                            <li>Laravel 10</li>
-                            <li>MySQL</li>
-                        </ul>
-
-                        <p><strong>Link to Project:</strong> <a href="https://youtu.be/ab_lJo7JxxQ" target="_blank">View Project</a></p>
-                    </div>
-                </div>
-
-                <div class="card project-card">
-                    <div class="card-header project-header">
-                        <p class="card-header-title">Project Name: Hostel Management System</p>
-                    </div>
-                    <div class="card-content">
-                        <p class="project-description"><strong>Description:</strong>
-                            A system to manage the check in/out of student who stay in hostel during the pandemic.
-                        </p>
-                        
-                        <p><strong>Technologies Used:</strong></p>
-                        <ul class="tech-list">
-                            <li>Laravel 10</li>
-                            <li>MySQL</li>
-                        </ul>
-
-                        <p><strong>Link to Project:</strong> <a href="https://youtu.be/6fRI22w4jLM" target="_blank">View Project</a></p>
-                    </div>
-                </div>
-
-                <div class="card project-card">
-                    <div class="card-header project-header">
-                        <p class="card-header-title">Project Name: Way To Avoid Coronavirus Infection</p>
-                    </div>
-                    <div class="card-content">
-                        <p class="project-description"><strong>Description:</strong>
-                            The "Way To Avoid Coronavirus Infection" is an educational animation project designed to inform and engage audiences about the best practices for preventing the spread of the coronavirus (COVID-19). Through visually appealing and easy-to-understand animated content, the project aims to convey important safety measures, hygiene practices, and health guidelines that can help reduce the risk of infection.
-                        </p>
-                        
-                        <p><strong>Technologies Used:</strong></p>
-                        <ul class="tech-list">
-                            <li>Adobe Animation 2020</li>
-                            <li>Adobe Illustrator 2020</li>
-                        </ul>
-
-                        <p><strong>Link to Project:</strong> <a href="https://youtu.be/TMUZxTA4l3M" target="_blank">View Project</a></p>
-                    </div>
-                </div>
+        <section id="welcome-sub" class="welcome-sub">
+            <div class="image-background">
+                <img src="assets/images/background/project.jpg" alt="Background Image">
             </div>
-        </div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2>Projects</h2>
+							<p>A brief overview of the projects I have developed</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
+		</section>
+
+        <!-- portfolio section -->
+		<section id="portfolio" class="section-header even-background">
+			<div class="portfolio-details">
+				<div class="section-heading text-center">
+					<h2>Projects</h2>
+				</div>
+				<div class="container">
+					<div class="portfolio-content">
+						<div class="isotope">
+							<div class="row">
+
+								<div class="col-sm-4">
+									<div class="item" data-bs-toggle="modal" data-bs-target="#unitycaremodal">
+										<img src="assets/images/portfolio/unitycare.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a>
+												UNITYCARE
+											</a>
+										</div>
+									</div>
+									<div class="item" data-bs-toggle="modal" data-bs-target="#animodal">
+										<img src="assets/images/portfolio/animation.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a>
+												covid-19 animation
+											</a>
+										</div>
+									</div>
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item" data-bs-toggle="modal" data-bs-target="#nnmodal">
+										<img src="assets/images/portfolio/nutrient-navigator.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a>
+												nutrient navigator
+											</a>
+										</div>
+									</div>
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item" data-bs-toggle="modal" data-bs-target="#primmodal">
+										<img src="assets/images/portfolio/prim.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a>
+												hostel management system
+											</a>
+										</div>
+									</div>
+									<div class="item" data-bs-toggle="modal" data-bs-target="#imsmodal">
+										<img src="assets/images/portfolio/ims.png" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a>
+												inventory management system
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade" id="unitycaremodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="unitycaremodalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1 class="modal-title fs-5" id="unitycaremodalLabel">Project Description</h1>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>
+										UnityCare serves as a bridge to connect the enterprise and individual who have financial difficulties or 
+										physical disabilities.
+									</p>
+									<br/>
+									<p><strong>General Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Fostering a culture of empathy and collective responsibility</li>
+											<li>Raising awareness about the poverty issue</li>
+										</ul>
+									</div>
+									<br/>
+									<p><strong>Individuals with Disability Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Find available jobs</li>
+											<li>Attend skill development programs</li>
+											<li>May receive government subsidies</li>
+										</ul>
+									</div>
+									<br/>
+									<p><strong>Enterprise Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Caring for vulnerable groups</li>
+											<li>Improve their corporate reputation</li>
+											<li>May receive government subsidies</li>
+										</ul>
+									</div>
+									<br/>
+									<p><strong>Volunteer Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Gain knowledge to deal with people with physical disabilities</li>
+										</ul>
+									</div>
+									<br/>
+									<div class="modal-flex">
+										<iframe height="100%" width="100%" src="https://www.youtube.com/embed/ab_lJo7JxxQ?si=viNagOYFU7eppycS" 
+										title="YouTube video player" frameborder="0" 
+										allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+										referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade" id="animodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="animodalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1 class="modal-title fs-5" id="animodalLabel">Project Description</h1>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>
+										An animation video delivering way to avoid coronavirus infection.
+									</p>
+									<br/>
+									<p><strong>Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Raising awareness about personal healthcare</li>
+											<li>Fosters long-term healthy habits in the community</li>
+										</ul>
+									</div>
+									<br/>
+									<div class="modal-flex">
+										<iframe height="100%" width="100%" src="https://www.youtube.com/embed/TMUZxTA4l3M?si=g8Y3BZmnWLHFA5N-" 
+										title="YouTube video player" frameborder="0" 
+										allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+										referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade" id="nnmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="nnmodalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1 class="modal-title fs-5" id="nnmodalLabel">Project Description</h1>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>
+										The Nutrient Navigator project provides an engaging, hands-on learning approach by using 
+										technology to identify and classify key nutrients in foods. Students will build a 
+										conveyor belt model, integrate a micro:bit system, and use a camera to detect food 
+										items and display their main nutrient. This interactive experience allows students 
+										to apply tech skills in a real-world context, deepening their understanding of food's 
+										nutritional value and how technology can aid in everyday life. 
+									</p>
+									<br/>
+									<p><strong>Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Students gain nutrition knowledge they can share with family and friends</li>
+											<li>Early nutrition education fosters long-term healthy habits in the community</li>
+											<li>The project encourages using tech in practical, everyday contexts</li>
+										</ul>
+									</div>
+									<br/>
+									<div class="modal-flex">
+										<iframe width="100%" src="https://www.youtube.com/embed/VMe05LKm6JE?si=QqXiNEtxEgnszOmL" 
+										title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; 
+										encrypted-media; gyroscope; picture-in-picture; web-share" 
+										referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="modal fade" id="primmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="primmodalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1 class="modal-title fs-5" id="primmodalLabel">Project Description</h1>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>
+										This platform helps schools efficiently manage student check-ins and check-outs from the dormitory, 
+										ensuring smooth and secure operations. It provides real-time tracking, automated notifications, 
+										and easy reporting for school administrators.
+									</p>
+									<br/>
+									<p><strong>Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Track student movements to ensure safety and accountability</li>
+											<li>Notify parents and guardians of student arrivals and departures</li>
+											<li>Generate detailed reports on dormitory occupancy and student activity for better management</li>
+										</ul>
+									</div>
+									<br/>
+									<div class="modal-flex">
+										<iframe width="100%" height="auto" src="https://www.youtube.com/embed/6fRI22w4jLM?si=QntRT5wcUodXNN0A" 
+										title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; 
+										encrypted-media; gyroscope; picture-in-picture; web-share" 
+										referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade" id="imsmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="imsmodalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1 class="modal-title fs-5" id="imsmodalLabel">Project Description</h1>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<p>
+										A system that is mainly used to handle the inventory management process and 
+										automate report generation.
+									</p>
+									<br/>
+									<p><strong>Benefits</strong></p>
+									<div class="description">
+										<ul>
+											<li>Reduce the probability of data loss</li>
+											<li>Increase data accuracy</li>
+											<li>Increase the efficiency of the employees</li>
+										</ul>
+									</div>
+									<br/>
+									<div class="modal-flex">
+										<div class="container-fluid">
+											<div id="ims-pic" class="carousel slide" data-bs-ride="carousel">
+												<div class="carousel-indicators">
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="1" aria-label="Slide 2"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="2" aria-label="Slide 3"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="3" aria-label="Slide 4"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="4" aria-label="Slide 5"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="5" aria-label="Slide 6"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="6" aria-label="Slide 7"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="7" aria-label="Slide 8"></button>
+													<button type="button" data-bs-target="#ims-pic" data-bs-slide-to="8" aria-label="Slide 9"></button>
+												</div>
+												<div class="carousel-inner">
+													<!-- default data-bs-interval="5000" -->
+													<div class="carousel-item active">
+														<img src="assets/images/portfolio/ims/IMS-1.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-2.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-3.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-4.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-5.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-6.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-7.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-8.png" class="d-block w-100" alt="IMS Image">
+													</div>
+													<div class="carousel-item">
+														<img src="assets/images/portfolio/ims/IMS-9.png" class="d-block w-100" alt="IMS Image">
+													</div>
+												</div>
+												<button class="carousel-control-prev" type="button" data-bs-target="#ims-pic" data-bs-slide="prev">
+													<span class="carousel-control-prev-icon text-primary" aria-hidden="true"></span>
+													<span class="visually-hidden">Previous</span>
+												</button>
+												<button class="carousel-control-next" type="button" data-bs-target="#ims-pic" data-bs-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="visually-hidden">Next</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div><!--/.container-->
+			</div><!--/.portfolio-details-->
+
+		</section>
+
+        <!-- footer section -->
         <div id="footer-placeholder"></div>
+
+        <!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<!-- jquery cdn -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+		integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<!-- bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+		<script src="assets/js/custom.js"></script>
     </body>
 </html>
