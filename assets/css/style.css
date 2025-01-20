@@ -382,26 +382,26 @@ html,body{
     color: white;
 }
 
-.modal .carousel-indicators button{
+#imsmodal .carousel-indicators button{
     background-color: rgb(232, 232, 235);
 }
 
-.modal .carousel-indicators .active{
+#imsmodal .carousel-indicators .active{
     background-color: #3676ff;
 }
 
-.modal.carousel-control-prev-icon,
-.modal.carousel-control-next-icon {
+#imsmodal .carousel-control-prev-icon,
+#imsmodal .carousel-control-next-icon {
     border-radius: 10px;
     background-color: #3676ff;
 }
 
-.modal.carousel-control-prev-icon,
-.modal.carousel-control-next-icon {
+#imsmodal .carousel-control-prev-icon,
+#imsmodal .carousel-control-next-icon {
     background-color: #2859c2;
 }
 
-.modal .carousel {
+#imsmodal .carousel {
     background-color: transparent;
 }
 
