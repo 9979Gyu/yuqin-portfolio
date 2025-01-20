@@ -390,18 +390,18 @@ html,body{
     background-color: #3676ff;
 }
 
-#imsmodal .carousel-control-prev-icon,
-#imsmodal .carousel-control-next-icon {
+.modal .carousel-control-prev-icon,
+.modal .carousel-control-next-icon {
     border-radius: 10px;
     background-color: #3676ff;
 }
 
-#imsmodal .carousel-control-prev-icon,
-#imsmodal .carousel-control-next-icon {
+.modal .carousel-control-prev-icon,
+.modal .carousel-control-next-icon {
     background-color: #2859c2;
 }
 
-#imsmodal .carousel {
+.modal .carousel {
     background-color: transparent;
 }
 
